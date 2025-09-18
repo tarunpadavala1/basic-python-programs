@@ -1,0 +1,9 @@
+def login():
+  use_name = input("enter the user name:")
+  password = int(input("enter the password:"))
+  if use_name == "tarun" and password == 1234:
+    print("login successfully")
+  else:
+    print("invalid user name or password")
+    login()
+login()
