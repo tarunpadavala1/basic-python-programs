@@ -1,0 +1,5 @@
+a = int(input("enter the number:"))
+b = int(input("enter the number:"))
+c = int(input("enter the number:"))
+x=((a+b+c)/3)
+print("average of the numbers is:", x)
