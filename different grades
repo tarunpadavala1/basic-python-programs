@@ -1,0 +1,7 @@
+age=int(input("enter the age:"))
+if age<50:
+  print("belongs to group a")
+if age>=50 and age<=80:
+  print("belongs to group b")
+else:
+  print("belongs to group c")
